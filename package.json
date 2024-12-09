@@ -1,23 +1,19 @@
 {
-  "name": "location_api",
+  "name": "geolocator",
   "version": "1.0.0",
-  "description": "This API can be use to all developers to get location details of Sri Lanka including major cities, sub areas, districts and Provinces",
+  "description": "Express + MySQL",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Pasindu Senarathne",
-  "license": "MIT",
-  "dependencies": {
-    "body-parser": "^1.19.0",
-    "cors": "^2.8.5",
-    "dotenv": "^10.0.0",
-    "ejs": "^3.1.6",
-    "express": "^4.17.1",
-    "express-ejs-layouts": "^2.5.0",
-    "mongoose": "^5.12.12",
-    "mysql2": "^3.11.5",
-    "nodemon": "^2.0.7"
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thanujaDev26/GeoLocator.git"
+  },
+  "author": "Thanuja Priyadarshane",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thanujaDev26/GeoLocator/issues"
+  },
+  "homepage": "https://github.com/thanujaDev26/GeoLocator#readme"
 }

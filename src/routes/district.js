@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const db = require('../db');
 
-// Get all districts
+
 router.get('/', async (req, res) => {
     try {
         const [rows] = await db.query('SELECT * FROM districts');
@@ -13,7 +13,7 @@ router.get('/', async (req, res) => {
     }
 });
 
-// Get districts by province
+
 router.get('/byprovince/:id', async (req, res) => {
     try {
         const [rows] = await db.query('SELECT * FROM districts WHERE province_id = ?', [req.params.id]);
